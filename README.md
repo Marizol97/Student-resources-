@@ -8,13 +8,13 @@ Work with team  to implement the following user story:
 
 * Its done when we have a working Student-Resources- webpage
 
-* Its done when the user can select whether they are stressed or not and be redirected to another page.
+* It's done when we have a quiz to get to know studnets 
 
-*It is done when student can select field of study and is given suggestions on how to relieve stress 
+* It's done when user selects stress levels from 1-10 and a random picutre of dogs appear.
 
-* It is done when user can select a suggestion and is given tips of how to stress relief.
+* It is done when user can load random motivational quotes 
 
-*It is done when web API'S and web interface are working together in a functional web page.
+* It is done when web API'S and web interface are working together in a functional web page.
 
 ## Notes
 
