@@ -9,27 +9,40 @@
   <body>
     <h1>Student Resources</h1>
   <h2>Are you stressed?</h2>
-  <h3>So are we,school is very stressful. Take this quiz to blow off steam!!!</h3>
-  <div class="form"
+  <h3>So are we, school is very stressful. Take this quiz to blow off steam!!!</h3>
+  <div class="form"></div>
    <p>Do you want to be in school?</p>
-   <button class="yes">
-   <p>Yes</p>
+   <button class="response">
+    <p>Yes</p>
    </button>
-   <button class="no">
+   <button class="response">
    <p>No</p>
    </button>
    <p>Do you like your major?</p>
-   <button class="yes">
+   <button class="response">
     <p>Yes</p>
    </button>
-   <button class="no">
+   <button class="response">
     <p>No</p>
    </button>
    <p>What year do you graduate?</p>
-  <li>
-     <textarea id="msg" name="year"></textarea>
-  </li>
-  <button id="play">Play</button>
+   <button class="response">
+    <p>Yes</p>
+   </button>
+   <button class="response">
+    <p>No</p>
+   </button>
+  <!-- needs fixing not sure why options won't show -->
+<div class="select">
+  <label for="year-select"> Select how many more years do you have left:</label>
+  <select name="years" id="year-select"><option value="">--Please choose an option--</option>
+      <option value="1"></option>
+      <option value="2"></option>
+      <option value="3"></option>
+      <option value="4"></option>
+      <option value="5"></option>
+      <option value="6"></option>
+  </select>
 </div>
  <script src="./assets/js/script.js"></script>
   </body>
