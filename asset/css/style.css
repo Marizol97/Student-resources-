@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.7rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+
+header {
+    background-image: url("../images/beachsunset.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.get_started {
+    padding: 20px;
+    background-color: #FED0BA;
+    border: none;
+    border-radius: 20px;
+    transition: all ease-in-out 0.7s;
+}
+
+.get_started:hover,
+.get_started:active {
+    background-color: #AE6674;
+    color: #fff;
+}
+
+#main_content {
+    min-height: calc(100vh - 30px);
+    padding-top: 30px;
+}
+
+#shibe_gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image {
+    height: 350px;
+    width: 350px;
+}
+
+footer {
+    height: 30px;
+    text-align: center;
+}
+
+footer a {
+    margin-left: 20px;
+}
