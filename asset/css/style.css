@@ -12,19 +12,20 @@ html {
 }
 
 .wrapper {
+    font-size: 2.5rem;
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 h2 {
-    font-size: 2.7rem;
+    font-size: 3.7rem;
 }
 h3 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 header {
@@ -36,6 +37,7 @@ header {
 }
 
 .get_started {
+    font-size: 3rem;
     padding: 20px;
     background-color: #FED0BA;
     border: none;
@@ -73,4 +75,11 @@ footer {
 
 footer a {
     margin-left: 20px;
+  
+}
+footer a:hover {
+    background-color: yellow;
+  }
+p {
+    color: white
 }
