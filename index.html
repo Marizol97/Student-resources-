@@ -20,7 +20,7 @@
 
     <main id="main_content" class="wrapper">
       <form action="">
-        <fieldset>
+        <fieldset class="questions">
           Do you want to be in school?
           
           <label for="want_to_be_enrolled">Yes</label>
@@ -30,7 +30,7 @@
           <input type="radio" name="want_to_be_enrolled" id="want_to_be_enrolled_no">
         </fieldset>
 
-        <fieldset>
+        <fieldset class= "questions">
           Do you like your major?
           
           <label for="like_your_major">Yes</label>
@@ -40,12 +40,12 @@
           <input type="radio" name="like_your_major" id="like_your_major_no">
         </fieldset>
 
-        <fieldset>
+        <fieldset class="questions">
           <label for="graduation_year">What year do you graduate?</label>
           <input type="date" name="graduation_year" id="graduation_year" min="2022-10-01" max="2030-12-31" value="2022-11-01">
         </fieldset>
 
-        <fieldset>
+        <fieldset class= "questions">
           <label for="years_remaining">How many more years do you have left?</label>
           <select name="years_remaining" id="years_remaining">
             <option value="" disabled selected>Please choose an option</option>
@@ -61,8 +61,8 @@
             <option value="10">9 years or more</option>
           </select>
         </fieldset>
-        
-        <button class="get_photos" type="submit">Submit</button>
+
+        <button class="get_photos" id="submit" type="submit">Submit</button>
       </form>
       <div id="motivational_quote">
       </div>
