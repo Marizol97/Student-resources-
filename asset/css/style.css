@@ -43,8 +43,7 @@ header {
 .get_started {
     font-size: 3rem;
     padding: 20px;
-    background-color: #fdb9be
-    ;
+    background-color: rgb(232, 227, 227);
     border: none;
     border-radius: 20px;
     transition: all ease-in-out 0.7s;
@@ -52,7 +51,7 @@ header {
 
 .get_started:hover,
 .get_started:active {
-    background-color: #AE6674;
+    background-color: #9d84b6;
     color: #fff;
 }
 
