@@ -19,4 +19,3 @@ Work with team  to implement the following user story:
 ## Notes
 
 Refer to the documentation:
-
