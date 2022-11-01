@@ -64,7 +64,7 @@ console.log('getting quote')
 async function getShibe() {
     const number_requested = years_remaining.value
 
-    const response = await fetch(`http://shibe.online/api/shibes?count=${number_requested}&urls=true&httpsUrls=true`)
+    const response = await fetch(`https://shibe.online/api/shibes?count=${number_requested}&urls=true&httpsUrls=true`)
 
     return response.json()
 }
